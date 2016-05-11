@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wikipedia Feed</title>
+</head>
+<body>
+    <h2>Feed Response</h2>
+    <p tal:condition="error">
+        ${error}
+    </p>
+    <p tal:condition="table_of_content">
+        <div>${structure: table_of_content}</div>
+    </p>
+    <a href="/" class="button">Go to Home</a>
+</body>
+</html>

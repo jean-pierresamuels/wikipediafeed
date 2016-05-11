@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wikipedia Feed</title>
+</head>
+<body>
+    <h2>Welcome To Wikipedia Feed</h2>
+    <form method="post" action="/wikipedia/feed">
+        <p>Please Enter a wikipedia url to receive a overview of that page.</p>
+        <input type="text" placeholder="Enter Url Here" name="feed_url">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
